@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dl.mapper.ZrComProductMapper" >
+  <resultMap id="BaseResultMap" type="com.dl.pojo.ZrComProduct" >
+    <id column="product_id" property="productId" jdbcType="BIGINT" />
+    <result column="product_code" property="productCode" jdbcType="VARCHAR" />
+    <result column="descripetion" property="descripetion" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="combination_id" property="combinationId" jdbcType="BIGINT" />
+    <result column="risk" property="risk" jdbcType="VARCHAR" />
+    <result column="investment_strategy" property="investmentStrategy" jdbcType="VARCHAR" />
+    <result column="lables" property="lables" jdbcType="VARCHAR" />
+    <result column="state" property="state" jdbcType="VARCHAR" />
+    <result column="spare_text1" property="spareText1" jdbcType="VARCHAR" />
+    <result column="spare_text2" property="spareText2" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="BIGINT" />
+    <result column="change_time" property="changeTime" jdbcType="BIGINT" />
+    <result column="end_time" property="endTime" jdbcType="BIGINT" />
+  </resultMap>
+</mapper>
